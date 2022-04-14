@@ -46,7 +46,7 @@ class withoutDiscount implements DiscountBehavior {
       TypeProducts.JOGO_VIDEO_GAME_DIGITAL,
       TypeProducts.JOGO_VIDEO_GAME_FISICO,
     ];
-    if (!(product.type in types_allows)) return 0;
+    if (!(product.type in types_allows)) return 1;
 
     const discountValue = 0;
     return 1 - discountValue;
@@ -121,14 +121,23 @@ class Main {
       200,
       TypeProducts.LIVRO_FISICO
     );
+    const videoGame1 = new Product(
+      "Nintendo Switch",
+      3500,
+      TypeProducts.JOGO_VIDEO_GAME_FISICO
+    );
     const desconto = new Discount30();
-
+    const desconto2 = new withoutDiscount();
     const item1 = new Item(2, livro1, desconto);
-
-    const venda1 = new Sale([item1]);
+    const item2 = new Item(1, videoGame1, desconto2);
+    const venda1 = new Sale([item1, item2]);
 
     const resultado = venda1.pay();
 
     console.log("Valor à Pagar:", resultado);
   }
 }
+
+const main1 = new Main();
+
+main1.execute();
