@@ -20,7 +20,7 @@ class Discount30 implements DiscountBehavior {
       TypeProducts.LIVRO_DIGITAL,
       TypeProducts.LIVRO_FISICO,
     ];
-    if (!(product.type in types_allows)) return 0;
+    if (!(product.type in types_allows)) return 1;
     const discountValue = 0.3;
     return 1 - discountValue;
   }
@@ -33,7 +33,7 @@ class Discount15 implements DiscountBehavior {
       TypeProducts.LIVRO_DIGITAL,
       TypeProducts.LIVRO_FISICO,
     ];
-    if (!(product.type in types_allows)) return 0;
+    if (!(product.type in types_allows)) return 1;
 
     const discountValue = 0.15;
     return 1 - discountValue;
