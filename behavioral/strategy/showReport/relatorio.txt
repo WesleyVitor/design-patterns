@@ -1,0 +1,4 @@
+Nome:Vestido Azuil
+Preço:100
+Nome:Vestido Branco
+Preço:200
