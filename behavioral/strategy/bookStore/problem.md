@@ -9,3 +9,13 @@ digital. No pagamento a vista, temos a seguinte política de descontos:
 
 Porém, a livraria pode ter promoções especiais durante o ano, de modo que os descontos dos
 produtos podem mudar.
+
+## Run
+
+### Instale as dependências
+
+`npm install `
+
+### Rode o código
+
+` npm run dev`
