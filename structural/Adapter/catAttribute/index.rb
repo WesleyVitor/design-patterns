@@ -8,6 +8,7 @@ class Cat
 end
 
 class CatChannel
+    #abstract class
     def put(cat)
         raise "#{self.class} need Implements this method"
     end
