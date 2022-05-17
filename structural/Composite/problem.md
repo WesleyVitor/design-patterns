@@ -63,17 +63,3 @@ classDiagram
 
 ` npm run dev`
 
-
-## Run
-
-### Instale as dependências
-
-`npm install `
-
-### Crie um arquivo .env e adicione a sua key pega pelo site
-
-[Alpha Vantage](https://www.alphavantage.co/support/#api-key)
-
-### Rode o código
-
-` npm run dev`
