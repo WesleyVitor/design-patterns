@@ -1,6 +1,4 @@
-# Bank Stock Info Problem
-
-# Bank Stock Info Problem
+# Tax collector Problem
 
 Um cobrador de impostos entrevista pessoas, perguntando-lhes qual é o seu rendimento, para poder calcular o montante a cobrar. O cobrador é muito competente e, além de pessoas individuais, pode também abordar empresas e realizar a mesma operação. Tanto as empresas, como as pessoas, são vistas como contribuintes singulares. Para melhorar a agilidade das finanças públicas, os cobradores de impostos foram treinados para cobrarem impostos em regiões geográficas (províncias, distritos, cidades). As províncias contêm vários distritos. Os distritos contêm várias cidades, assim como pessoas e empresas (situadas em regiões rurais). As cidades contêm pessoas e empresas.
 
